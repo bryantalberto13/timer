@@ -1,0 +1,26 @@
+window.aceConstants = {
+  DOMAINCONF: {
+    brandId: 'IDS',
+    isDev: false,
+    AppList: ['DD', 'DE'],
+  },
+
+  ACEAPICONF: {
+    env: 'prd',
+    title: 'API Production',
+    baseUrl: 'https://prd.xgritapi.com/api/1/',
+    basicAuth: 'Basic MmM5MjBlOGYxOTI0ZWVjNzgxZWRjMzE1ZjgxZTQzYTE6',
+  },
+
+  TOKENS: {
+    segment: 'D0qluvpUyWbF4qOzUNUE2XnR6UdmOFEc',
+    youtube: 'AIzaSyC-Q-UyucYVuYYnPaUM9-L32oKKq5GKAT8',
+    stripe: 'pk_live_wf9AJemdXR29ucoJRrOuDWEr00XeXeenvB',
+    facebook: '691302410903494',
+    iterable: {
+      DE: 'a44c124ada88415fbdd03af56d727b10',
+      DD: 'a44c124ada88415fbdd03af56d727b10',
+      RE: 'a44c124ada88415fbdd03af56d727b10',
+    },
+  },
+};
